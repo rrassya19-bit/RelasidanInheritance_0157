@@ -16,6 +16,12 @@ public:
     }
     void tambahDokter(dokter*);
     void cetakDokter();
+
+class dokter {
+public:
+    string nama;
+    vector<pasien*> daftar_pasien;
+};
 };
 
 int main() {
